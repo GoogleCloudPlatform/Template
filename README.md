@@ -11,9 +11,7 @@ scaffolding for other frameworks and use cases.
 2. Setup the gcloud tool.
 
    ```
-   gcloud components update app
-   gcloud auth login
-   gcloud config set project <your-app-id>
+   gcloud init
    ```
    You don't need a valid app-id to run locally, but will need a valid id to deploy below.
    
@@ -22,11 +20,7 @@ scaffolding for other frameworks and use cases.
    ```
    git clone https://github.com/GoogleCloudPlatform/<REPO NAME>.git
    ```
-1. Run this project locally from the command line.
-
-   ```
-   gcloud preview app run <REPO NAME>/
-   ```
+1. Run the application using the tool of your choice.  
 
 1. Visit the application at [http://localhost:8080](http://localhost:8080).
 
@@ -38,11 +32,11 @@ scaffolding for other frameworks and use cases.
    ```
    gcloud config set project <your-app-id>
    ```
-1. Use the [Admin Console](https://appengine.google.com) to view data, queues, and other App Engine specific administration tasks.
+
 1. Use gcloud to deploy your app.
 
    ```
-   gcloud preview app deploy <REPO NAME>/
+   gcloud app deploy <REPO NAME>/
    ```
 
 1. Congratulations!  Your application is now live at your-app-id.appspot.com
