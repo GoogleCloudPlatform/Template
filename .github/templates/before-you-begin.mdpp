@@ -1,0 +1,13 @@
+## Before you begin
+
+1.  Download and install the [Google Cloud
+    SDK](https://cloud.google.com/sdk/docs/), which includes the
+    [gcloud](https://cloud.google.com/sdk/gcloud/) command-line tool.
+
+1.  Create a [new Google Cloud Platform project from the Cloud
+    Console](https://console.cloud.google.com/project) or use an existing one.
+
+1.  Initialize the Cloud SDK.
+
+        gcloud init
+
