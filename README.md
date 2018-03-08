@@ -1,11 +1,11 @@
-## Project Name
-
 ![status: inactive](https://img.shields.io/badge/status-inactive-red.svg)
 
 This project is no longer actively developed or maintained.
 
 Review the [release preparing](https://opensource.google.com/docs/releasing/preparing/)
 document instead.
+
+## Project Name
 
 Project description.
 
